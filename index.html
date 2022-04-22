@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>Login</title>
 </head>
 <body>
-    
+    <form onsubmit="validaForm(this);">
+        <h3>Entrar em contato</h3>
+        <input id="email" type="text" name="email" placeholder="E-mail">
+        <input id="password" type="password" name="senha" placeholder="Senha">
+        <input type="submit" value="Enviar" name="acao">
+    </form>
+
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
