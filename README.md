@@ -1,6 +1,4 @@
-# Formulário de Login Simples para Teste
-
-Formulário de login com Html, Css & Javascript.
+Formulário de login simples com Html, Css & Javascript.
 
 ## Site
 
