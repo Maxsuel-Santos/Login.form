@@ -31,10 +31,4 @@ function validaForm(frm) {
             frm.email.focus();
             return false;
         }
-
-        if(frm.password.value < 6 || frm.password.value == "" || frm.password.value == null) {
-            window.alert("Por favor, indique uma senha válida.");
-            frm.password.focus();
-            return false;
-        }
 }
