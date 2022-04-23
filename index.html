@@ -8,12 +8,14 @@
     <title>Login</title>
 </head>
 <body>
-    <form onsubmit="validaForm(this);">
-        <h3>Login</h3>
-        <input id="email" type="text" name="email" placeholder="E-mail">
-        <input id="password" type="password" name="senha" placeholder="Senha" required>
-        <input type="submit" value="Entrar" name="acao">
-    </form>
+    <main id="container">
+        <form onsubmit="validaForm(this);">
+            <h3>Login</h3>
+            <input id="email" type="text" name="email" placeholder="E-mail">
+            <input id="password" type="password" name="senha" placeholder="Senha" required>
+            <input id="enviar" type="submit" value="Entrar" name="acao">
+        </form>
+    </main>
 
     <script src="assets/js/app.js"></script>
 </body>
