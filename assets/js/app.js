@@ -2,7 +2,7 @@ let email = document.getElementById('email');
 let password = document.getElementById('password');
 
 email.addEventListener('focus', () => {
-    email.style.borderColor = '#4a5f6a';
+    email.style.borderColor = '#040b25';
 });
 
 email.addEventListener('blur', () => {
@@ -12,7 +12,7 @@ email.addEventListener('blur', () => {
 //
 
 password.addEventListener('focus', () => {
-    password.style.borderColor = '#4a5f6a';
+    password.style.borderColor = '#040b25';
 });
 
 password.addEventListener('blur', () => {
