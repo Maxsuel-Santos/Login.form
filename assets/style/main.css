@@ -46,7 +46,7 @@ body {
   }
 }
 
-form {
+main form {
   -webkit-animation: rootAnimation 2s ease-in-out forwards;
           animation: rootAnimation 2s ease-in-out forwards;
   opacity: 0;
@@ -57,12 +57,22 @@ form {
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 20px #000000a3;
           box-shadow: 2px 2px 20px #000000a3;
+  text-align: center;
 }
 
-form h3 {
+main form h3 {
   text-align: center;
   color: #fe4c02;
   font-size: 1.8rem;
+}
+
+main form a {
+  text-decoration: none;
+  color: #040b25;
+}
+
+main form a:hover {
+  text-decoration: underline;
 }
 
 input {
