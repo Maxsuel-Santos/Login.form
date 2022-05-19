@@ -100,7 +100,7 @@ form input[type=submit] {
   cursor: pointer;
   color: #fe4c02;
   background-color: transparent;
-  border-radius: 20px;
+  border-radius: 5px;
   border: 1.5px solid #fe4c02;
   font-weight: 500;
   -webkit-transition: .6s ease-in-out;

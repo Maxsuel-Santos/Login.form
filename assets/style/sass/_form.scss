@@ -1,5 +1,7 @@
 @import "animations";
 
+$border: 5px;
+
 main form {
     animation: rootAnimation 2s ease-in-out forwards;
     opacity: 0;
@@ -28,7 +30,7 @@ main form {
 
 input {
     font-size: 1.3rem;
-    border-radius: 5px;
+    border-radius: $border;
 }
 
 form input[type=text],
@@ -53,7 +55,7 @@ form input[type=submit] {
     cursor: pointer;
     color: $cor1;
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: $border;
     border: 1.5px solid $cor1;
     font-weight: 500;
     transition: .6s ease-in-out;
