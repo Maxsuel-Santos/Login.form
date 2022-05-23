@@ -28,7 +28,19 @@ function validaForm(frm) {
           frm.email.value == "" ||
           frm.email.value == null) {
             window.alert("Por favor, indique um e-mail válido.");
+            event.preventDefault(); // Não recarregar a página
             frm.email.focus();
             return false;
         }
 }
+
+// Mostrar senha
+let btn = document.querySelector('.lnr-eye');
+btn.addEventListener('click', function() {
+    let input = document.querySelector('#password');
+    if(input.getAttribute('type') == 'password') {
+        input.setAttribute('type', 'text');
+    } else {
+        input.setAttribute('type', 'password');
+    }
+});

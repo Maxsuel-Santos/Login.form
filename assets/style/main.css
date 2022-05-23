@@ -75,6 +75,13 @@ main form a:hover {
   text-decoration: underline;
 }
 
+main form .lnr-eye {
+  position: absolute;
+  top: 49%;
+  right: 10%;
+  cursor: pointer;
+}
+
 input {
   font-size: 1.3rem;
   border-radius: 5px;
@@ -117,5 +124,12 @@ form input[type=submit]:hover {
 
 form input[type=submit]:hover {
   background-color: #fe4c02;
+}
+
+/**/
+@media only screen and (max-width: 500px) {
+  main form {
+    width: 80vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */

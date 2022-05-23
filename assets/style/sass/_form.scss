@@ -26,6 +26,13 @@ main form {
             text-decoration: underline;
         }
     }
+
+    .lnr-eye {
+        position: absolute;
+        top: 49%;
+        right: 10%;
+        cursor: pointer;
+    }
 }
 
 input {
@@ -73,3 +80,4 @@ form input[type=submit] {
         background-color: $cor1;
     }
 }
+
