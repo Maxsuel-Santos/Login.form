@@ -10,7 +10,10 @@ main form {
     width: 100%;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px #000000a3;
+    box-shadow: 2px 2px 20px #000000a3,
+    inset 1px 1px 6px #000000a3,
+    inset -1px -1px 6px #000000a3,
+    -2px -2px 20px #000000a3;
     text-align: center;
 
     h3 {
@@ -38,6 +41,10 @@ main form {
 input {
     font-size: 1.3rem;
     border-radius: $border;
+    box-shadow: 1px 1px 1px #00000031,
+    inset 1px 1px 1px #00000031,
+    inset -1px -1px 1px #00000031,
+    -1px -1px 1px #00000031;
 }
 
 form input[type=text],
