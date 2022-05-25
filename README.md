@@ -8,4 +8,4 @@
 
 ## Site
 
-**Clique no link a seguir para acessar o _portfólio_:** [https://maxsuel-santos.github.io/Portfolio/](https://maxsuel-santos.github.io/Login.form/)
+**Clique no link a seguir para acessar a aplicação:** [https://maxsuel-santos.github.io/Portfolio/](https://maxsuel-santos.github.io/Login.form/)
